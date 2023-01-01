@@ -1,0 +1,27 @@
+{
+  "name": "runo-backend-developer-assignment",
+  "version": "1.0.0",
+  "description": "API to let users book their slot for vaccination",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dk7696822/runo-Backend-Developer-Assignment.git"
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dk7696822/runo-Backend-Developer-Assignment/issues"
+  },
+  "homepage": "https://github.com/dk7696822/runo-Backend-Developer-Assignment#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.2"
+  }
+}
